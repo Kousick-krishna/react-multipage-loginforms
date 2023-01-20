@@ -1,0 +1,71 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-image: url("C:\Users\kousick krishna\OneDrive\Pictures\2.png");
+    
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.text-container{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: auto;
+    box-shadow: 0.5em 0.5em 0.5em;
+  
+
+}
+.text1-container{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: auto;
+    box-shadow: 0.5em 0.5em 0.5em;
+}
+.text2-container{
+    width: 250px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    margin: auto;
+    box-shadow: 0.5em 0.5em 0.5em;
+}
+input{
+    border-radius: 25px;
+    text-align: center;
+    height: 60px;
+    margin: auto;
+    border: 3px solid white;
+    color: aqua;
+}
+button{
+    width: 120px;
+    color:crimson;
+    border-radius: 25px;
+    margin: 5px;
+    height: 40px;
+    border: 2px solid white;
+    opacity: 1.5;   
+}
+button:hover{
+    color:lawngreen;
+}
+h1{
+    text-align: center;
+    color: lightblue;
+    padding: 10px;
+    margin: 10px;
+}
